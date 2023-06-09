@@ -1,6 +1,6 @@
 /**
  * @type { import("eslint").Linter.Config }
-*/
+ */
 const config = {
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -25,7 +25,10 @@ const config = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
+    'no-console': 'error',
   },
 };
 
 module.exports = config;
+
+console.log('eh');
