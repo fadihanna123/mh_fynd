@@ -1,3 +1,6 @@
 export class TranslationProps {
-  constructor(public val: string, public lang: string) {}
+  constructor(
+    public val: string,
+    public lang: string
+  ) {}
 }

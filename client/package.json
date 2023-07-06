@@ -1,20 +1,20 @@
 {
   "name": "mh_fynd_client",
-  "version": "0.1.1",
-  "lastUpgrade": "20230609",
+  "version": "0.1.2",
+  "lastUpgrade": "20230706",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
     "@types/jest": "^29.5.2",
-    "@types/node": "^20.2.5",
-    "@types/react": "^18.2.9",
-    "@types/react-dom": "^18.2.4",
+    "@types/node": "^20.4.0",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "typescript": "^5.1.3",
+    "typescript": "^5.1.6",
     "web-vitals": "^3.3.2"
   },
   "scripts": {
@@ -45,6 +45,6 @@
   },
   "devDependencies": {
     "eslint-config-prettier": "^8.8.0",
-    "prettier": "^2.8.8"
+    "prettier": "^3.0.0"
   }
 }
