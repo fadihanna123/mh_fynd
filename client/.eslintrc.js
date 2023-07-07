@@ -24,6 +24,7 @@ const config = {
     },
   },
   rules: {
+    '@typescript-eslint/no-empty-function': 'off',
     indent: ['error', 2],
     'linebreak-style': ['error', 'windows'],
     quotes: ['error', 'single'],
